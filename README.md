@@ -1,4 +1,4 @@
-# News app cotain some category like 
+# News app contain some category like 
 #Facebook WhatsApp Instagram twitter
 
 UI FLUTTER NEWS APP 
