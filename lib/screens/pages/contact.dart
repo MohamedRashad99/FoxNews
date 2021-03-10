@@ -104,16 +104,14 @@ class _ContactUsState extends State<ContactUs> {
             ),
             color: Colors.red.shade800,
             onPressed: () {
-              if(_formKey.currentState.validate()){
-
-
-                 // String name=nameController.text;
-               //   String email= emailController.text;
-                //  String message=messageController.text;
-                   setState(() {
-                     isloading =true;
-                   });
-              }else{
+              if(_formKey.currentState.validate()) {
+                  // String name=nameController.text;
+                  // String email= emailController.text;
+                  //  String message=messageController.text;
+                  setState(() {
+                    isloading = true;
+                  });
+                } else{
                 setState(() {
                   isloading =false;
                 });
