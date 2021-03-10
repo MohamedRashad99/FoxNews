@@ -1,9 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:container/pagemodel.dart';
-import 'home_screen.dart';
 import 'package:page_view_indicator/page_view_indicator.dart';
+//import 'package:shared_preferences/shared_preferences.dart';
+
+
+import '../pagemodel.dart';
+import 'home_screen.dart';
 
 class OnBoarding extends StatefulWidget {
   @override
@@ -18,29 +20,29 @@ class _OnBoardingState extends State<OnBoarding> {
     Pages.add(
       PageModel(
           'Welcome!',
-          '1- We did it! If the download does not start in a couple of seconds, you can click .',
-          'assets/images/cc.png',
+          '1- We did it! If want any breaking news you can following it easily, you can click .',
+          'assets/images/bbbb.jpg',
           Icons.camera),
     );
     Pages.add(
       PageModel(
-          'Map',
-          '2- The following defines the version and build number for your application and get your direction .',
-          'assets/images/cc2.png',
+          'FaceBook',
+          '2- All facebook features or news you can watching or following her easily .',
+          'assets/images/ff.jpg',
           Icons.add_location),
     );
     Pages.add(
       PageModel(
-          'Hotel',
-          '3- A version number is three numbers separated by dots, like 1.2.43 and can reserving in any time .',
-          'assets/images/cc3.png',
+          'Instagram',
+          '3- All instagram features or news you can watching or following her easily with some more notes .',
+          'assets/images/i.jpg',
           Icons.hotel),
     );
     Pages.add(
       PageModel(
-          'House',
-          '4- Both the version and the builder number may be overridden in flutter we have sales about all our houses ',
-          'assets/images/cc4.png',
+          'Twitter',
+          '4- All twitter features or news you can watching or following her easily with some more notes',
+          'assets/images/t.jpg',
           Icons.flight),
     );
   }

@@ -1,7 +1,9 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:container/utilities/api_utilities.dart';
-import 'package:container/models/category.dart';
+
+
+import '../utilities/api_utilities.dart';
+import '../models/category.dart';
 
 class CategoriesAPI {
   Future<List<Category>> fetchCategories() async {

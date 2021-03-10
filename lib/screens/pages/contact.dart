@@ -8,12 +8,12 @@ class ContactUs extends StatefulWidget {
 class _ContactUsState extends State<ContactUs> {
   final _formKey = GlobalKey<FormState>();
   bool isloading = false;
-  TextEditingController nameController;
+ TextEditingController nameController;
   TextEditingController emailController;
   TextEditingController messageController;
   @override
   void initState() {
-    nameController = TextEditingController();
+     nameController = TextEditingController();
     emailController= TextEditingController();
     messageController = TextEditingController();
 
@@ -107,9 +107,9 @@ class _ContactUsState extends State<ContactUs> {
               if(_formKey.currentState.validate()){
 
 
-                  String name=nameController.text;
-                  String email= emailController.text;
-                  String message=messageController.text;
+                 // String name=nameController.text;
+               //   String email= emailController.text;
+                //  String message=messageController.text;
                    setState(() {
                      isloading =true;
                    });

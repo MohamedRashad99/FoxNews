@@ -1,10 +1,12 @@
-import 'package:container/screens/twitter_feed.dart';
 import 'package:flutter/material.dart';
-import 'package:container/models/nav_menu.dart';
-import 'package:container/screens/home_screen.dart';
-import 'package:container/screens/headline_news.dart';
-import 'package:container/screens/instagram_feed.dart';
-import 'package:container/screens/facebook_feeds.dart';
+
+
+import '../screens/twitter_feed.dart';
+import '../models/nav_menu.dart';
+import '../screens/home_screen.dart';
+import '../screens/headline_news.dart';
+import '../screens/instagram_feed.dart';
+import '../screens/facebook_feeds.dart';
 
 class NavigationDrawer extends StatefulWidget {
   @override

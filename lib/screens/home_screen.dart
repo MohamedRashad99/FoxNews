@@ -1,10 +1,11 @@
-import 'package:container/shared_ui/navigation_drawer.dart';
 import 'package:flutter/material.dart';
+
+
+import '../shared_ui/navigation_drawer.dart';
 import 'home_tabs/whats_new.dart';
 import 'home_tabs/popular.dart';
 import 'home_tabs/favourite.dart';
-import 'package:container/api/authers_api.dart';
-import 'package:container/api/post_api.dart';
+import '../api/post_api.dart';
 import 'pages/about.dart';
 import 'pages/contact.dart';
 import 'pages/help.dart';

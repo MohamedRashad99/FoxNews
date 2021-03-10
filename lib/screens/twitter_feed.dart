@@ -1,10 +1,10 @@
 import 'dart:math';
-
-import 'package:container/api/post_api.dart';
-import 'package:container/models/post.dart';
-import 'package:container/utilities/data_utilities.dart';
 import 'package:flutter/material.dart';
-import 'package:container/shared_ui/navigation_drawer.dart';
+
+import '../api/post_api.dart';
+import '../models/post.dart';
+import '../utilities/data_utilities.dart';
+import '../shared_ui/navigation_drawer.dart';
 
 class TwitterFeed extends StatefulWidget {
   @override
@@ -105,6 +105,10 @@ class _TwitterFeedState extends State<TwitterFeed> {
                             style: TextStyle(
                               color: Colors.grey,
                             ),
+                            overflow: TextOverflow.ellipsis,
+                            softWrap: true,
+                            maxLines: 2,
+
                           ),
                         ],
                       ),
@@ -205,6 +209,8 @@ class _TwitterFeedState extends State<TwitterFeed> {
                   color: Colors.grey,
                   fontSize: 16,
                 ),
+                overflow: TextOverflow.ellipsis,
+                softWrap: true,
               ),
             ],
           ),

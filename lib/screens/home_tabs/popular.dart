@@ -1,9 +1,8 @@
-import 'package:container/screens/single_post.dart';
+import '../../screens/single_post.dart';
 import 'package:flutter/material.dart';
-import 'package:container/api/post_api.dart';
-import 'dart:async';
+import '../../api/post_api.dart';
 import 'package:container/models/post.dart';
-import 'package:container/utilities/data_utilities.dart';
+import '../../utilities/data_utilities.dart';
 
 class Popular extends StatefulWidget {
   @override
@@ -44,7 +43,6 @@ class _PopularState extends State<Popular> {
             }
             break;
         }
-        /*                  ----------------------    hena error ---------------------------*/
         return ListView.builder(
           itemBuilder: (context, position) {
             return Card(

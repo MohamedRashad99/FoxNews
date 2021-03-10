@@ -27,7 +27,7 @@ Widget error(var error){
 Widget noData(){
   return Container(
     padding: EdgeInsets.all(16),
-    child: Text('NO Data Available '),
+    child: Text('No Data Available '),
   );
 }
 String parseHumanDateTime( String dateTime ){

@@ -1,7 +1,9 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:container/models/auther.dart';
-import 'package:container/utilities/api_utilities.dart';
+
+
+import '../models/auther.dart';
+import '../utilities/api_utilities.dart';
 
  class AuthorsAPI {
   Future< List<Author> > fetchAllAuthers() async {

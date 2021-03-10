@@ -1,9 +1,9 @@
-import 'package:container/screens/onboarding.dart';
+import './screens/onboarding.dart';
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+//import 'screens/home_screen.dart';
+//import 'package:shared_preferences/shared_preferences.dart';
 import 'utilities/app_them.dart';
-import 'shared_ui/navigation_drawer.dart';
+//import 'shared_ui/navigation_drawer.dart';
 
 main() {
   //WidgetsFlutterBinding.ensureInitialized();

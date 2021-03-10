@@ -1,8 +1,7 @@
 import 'dart:math';
-
-import 'package:container/models/post.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart';
+
+import '../models/post.dart';
 
 class SinglePost extends StatefulWidget {
   final Post post;

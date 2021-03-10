@@ -1,16 +1,12 @@
 import 'dart:math';
 
-import 'package:container/models/post.dart';
+import '../../models/post.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:container/api/post_api.dart';
 import 'package:flutter/widgets.dart';
-import 'package:http/http.dart';
-import 'dart:async';
-import 'package:container/api/post_api.dart';
-import 'package:timeago/timeago.dart' as timeago;
-import 'package:container/utilities/data_utilities.dart';
 
+import '../../utilities/data_utilities.dart';
 import '../single_post.dart';
 
 class WhatsNew extends StatefulWidget {
@@ -116,41 +112,8 @@ class _WhatsNewState extends State<WhatsNew> {
             }
             break;
         }
-            return Container(
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height * 0.25,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-                image: ExactAssetImage('assets/images/cc6.png'),
-                fit: BoxFit.cover),
-          ),
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Padding(
-                  padding: const EdgeInsets.only(left: 48, right: 48),
-                  child: Text(
-                    'How tarries & Royals Gatecrashed Final',
-                    style: _headerTitle,
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-                SizedBox(
-                  height: 8,
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 34, right: 34),
-                  child: Text(
-                    'lorem ipsum dolor sit amt consecrate addicting eliot so sad ',
-                    style: _headerDiscription,
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-              ],
-            ),
-          ),
-        );
+        return Container();
+
       },
     );
   }
@@ -212,19 +175,7 @@ class _WhatsNewState extends State<WhatsNew> {
                       }
                       break;
                   } // switch
-                  /*  elmaford teshel 3 posts and return column   */
-                  Post post1 = snapShot.data[0];
-                  Post post2 = snapShot.data[1];
-                  Post post3 = snapShot.data[2];
-                  return Column(
-                    children: <Widget>[
-                      _drawSingleRow(post1),
-                      _drawDivider(),
-                      _drawSingleRow(post2),
-                      _drawDivider(),
-                      _drawSingleRow(post3),
-                    ],
-                  );
+                 return Container();
                 },
               ),
             ),
@@ -273,20 +224,7 @@ class _WhatsNewState extends State<WhatsNew> {
                 }
                 break;
             }
-            return Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Padding(
-                  padding: const EdgeInsets.only(left: 16, top: 8, bottom: 8),
-                  child: _drawSectionTitles('Recent Update'),
-                ),
-                _drawRecentUpdateCard(Colors.deepOrange, snapshot.data[0]),
-                _drawRecentUpdateCard(Colors.teal, snapshot.data[1]),
-                SizedBox(
-                  height: 48,
-                ),
-              ],
-            );
+          return Container();
           }),
     );
   }

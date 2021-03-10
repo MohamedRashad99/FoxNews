@@ -1,10 +1,10 @@
 import 'dart:math';
-
-import 'package:container/models/post.dart';
-import 'package:container/shared_ui/navigation_drawer.dart';
 import 'package:flutter/material.dart';
-import 'package:container/api/post_api.dart';
-import 'package:container/utilities/data_utilities.dart';
+
+import '../models/post.dart';
+import '../shared_ui/navigation_drawer.dart';
+import '../api/post_api.dart';
+import '../utilities/data_utilities.dart';
 
 class InstagramFeed extends StatefulWidget {
 
