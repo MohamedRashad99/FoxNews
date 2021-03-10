@@ -1,4 +1,5 @@
-# container
+# News app contain some category like 
+#Facebook WhatsApp Instagram twitter
 
 UI FLUTTER NEWS APP 
 ![WhatsApp Image 2021-01-26 at 16 12 54 (4)](https://user-images.githubusercontent.com/42122633/105856425-ea718f80-5ff1-11eb-8dcb-13adf90bdc23.jpeg)
